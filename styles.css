@@ -1,0 +1,39 @@
+h1{
+    color: blue;
+    font-size: 100px;
+}
+
+.bread{
+    background-color: greenyellow;
+}
+.chicken{
+    background-color: red;
+}
+.circular:hover{
+    border-radius: 20%;
+    transition: border-radius;
+    transition-duration: .2s;
+}
+.para{
+    font-size: 20px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.para:hover{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+img:hover{
+    background-color: rgb(255, 0, 212);
+}
+#heading{
+    color: cyan;
+    background-color: black;
+}
+#heading:hover{
+    background-color:rgb(38, 10, 114);
+    color: rgb(216, 18, 183);
+    border-radius: 20px;
+    transition: color, background-color, border-radius;
+    transition-duration: .4s;
+    transition-delay: .1s;
+}   
